@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Quiz1</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="hint_etUser">Введите имя аккаунта</string>
+    <string name="hint_etPassword">Введите пароль</string>
+    <string name="hint_etEmail">Введите Email</string>
+    <string name="have_account">Не создан аакаунт?</string>
+    <string name="sign_up">Создать аккаунт</string>
+    <string name="btnLogin">СТАРТ</string>
+    <string name="btnCreateAcc">Создать</string>
+    <string name="menu">Меню</string>
+    <string name="userName_menu">Привет, !</string>
+    <string name="tvStart">Играть</string>
+    <string name="tvRule">Правила</string>
+    <string name="tvHistory">Отчет</string>
+    <string name="tvExit">Выход</string>
+    <string name="tvRuleTitle">Правила</string>
+    <string name="btnNext">Next</string>
+    <string name="btnStartAgain">Играть снова!</string>
+    <string name="tvQuiz_Result">Результат</string>
+    <string name="tvQuiz_messageResult">Неплохой результат,</string>
+    <string name="tv_Subject">Предмет:</string>
+
+
+    <string name="tvRule_slide1">Викторина содержит 5 вопросов</string>
+    <string name="tvRule_slide2">За правильный ответ даётся 5 баллов</string>
+    <string name="tvRule_slide3">За неверный ответ списывается 2 балла</string>
+    <string name="tvRule_slide4">Все баллы сохраняются в Отчёте</string>
+
+    <string name="tvHistory_points">Все баллы :</string>
+    <string name="tvHistory_question">Количество ответов :</string>
+
+    <string name="tvH_subject">Раздел :</string>
+    <string name="tvH_Allpoints">Общие баллы :</string>
+    <string name="tvH_data">Дата :</string>
+    <string name="tv_ResCorrect">Правильных ответов:</string>
+    <string name="tv_ResIncorrect">Неправильных ответов:</string>
+    <string name="tv_ResEarned">Заработано:</string>
+    <string name="tv_ResAll">Общее количество баллов:</string>
+
+    <string name="tvQuiz_title">Викторина</string>
+    <string name="tvQuiz_math">Математика</string>
+    <string name="tvQuiz_geog">География</string>
+
+    <string name="etMath_answer">Введите ответ</string>
+    <string name="tvCurrentQuestion">Номер вопроса : 2</string>
+
+
+</resources>

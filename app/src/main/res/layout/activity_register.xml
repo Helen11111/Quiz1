@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvRegistr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/etUserName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_etUser"
+        android:background="@color/gray"
+        android:inputType="text"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp" />
+
+    <EditText
+        android:id="@+id/etEmail2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_etEmail"
+        android:background="@color/gray"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp" />
+
+    <EditText
+        android:id="@+id/etPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_etPassword"
+        android:background="@color/gray"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp" />
+
+    <Button
+        android:id="@+id/btnCreateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCreateAcc"
+        style="@style/btnStyle"
+        android:backgroundTint="@color/peach"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"/>
+
+</LinearLayout>

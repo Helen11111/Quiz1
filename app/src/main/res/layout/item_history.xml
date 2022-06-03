@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/cardViewStyle"
+    android:layout_margin="20dp"
+    android:clickable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvH_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvH_subject"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvH_Allpoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/tvH_Allpoints"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            app:layout_constraintTop_toBottomOf="@id/tvH_subject"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/tvH_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvH_data"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintTop_toBottomOf="@id/tvH_Allpoints"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Math"
+            android:textSize="25sp"
+            android:textColor="@color/peach"
+            style="@style/textStyleTitle"
+            android:layout_marginLeft="15dp"
+            app:layout_constraintBottom_toBottomOf="@id/tvH_subject"
+            app:layout_constraintTop_toTopOf="@id/tvH_subject"
+            app:layout_constraintStart_toEndOf="@id/tvH_subject"/>
+
+
+        <TextView
+            android:id="@+id/tv_AllPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60"
+            android:textSize="25sp"
+            android:textColor="@color/peach"
+            style="@style/textStyleTitle"
+            android:layout_marginLeft="15dp"
+            app:layout_constraintBottom_toBottomOf="@id/tvH_Allpoints"
+            app:layout_constraintStart_toEndOf="@id/tvH_Allpoints"
+            app:layout_constraintTop_toTopOf="@id/tvH_Allpoints"/>
+
+
+        <TextView
+            android:id="@+id/tv_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03-06-2022 09:23"
+            android:textSize="25sp"
+            android:textColor="@color/peach"
+            style="@style/textStyleTitle"
+            android:layout_marginLeft="15dp"
+            app:layout_constraintBottom_toBottomOf="@id/tvH_data"
+            app:layout_constraintStart_toEndOf="@id/tvH_data"
+            app:layout_constraintTop_toTopOf="@id/tvH_data"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
